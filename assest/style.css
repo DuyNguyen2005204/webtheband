@@ -128,7 +128,7 @@ html{
     padding-top: 50%;
     position: relative;
     margin-top: 46px;
-    background: url('/assest/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../assest/img/slider/slider1.jpg') top center / cover no-repeat;
 }
 #slider .text-content {
     position: absolute;
@@ -145,6 +145,7 @@ html{
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 
 }
 #content { 
@@ -481,7 +482,7 @@ html{
     color: #000;
     background-color: #ccc;
 }
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;
